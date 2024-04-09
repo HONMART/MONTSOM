@@ -31,6 +31,21 @@
             margin-bottom: 2px;
         }
     </style>
+<script LANGUAGE="JavaScript">
+    function disableselect(e) {
+      return false
+    }
+    function reEnable() {
+      return true
+    }
+    document.onselectstart = new Function("return false")
+    document.oncontextmenu = new Function("return false")
+
+    if (window.sidebar) {
+      document.onmousedown = disableselect
+      document.onclick = reEnable
+    }
+  </script>
 </head>
 
 <body>
@@ -210,7 +225,12 @@ Fabricamos Marca Própria de Guitarras Sob Encomenda</span><br><br>
                            <div class="whatsapp-button text-center">
                            <a href="https://wa.me/5511980951867" target="_blank">
                            <img src="https://i.imgur.com/ltczhk6.jpg" alt="WhatsApp"></a>
-                           </div>                        
+                           </div>
+                           <iframe width="1112" height="600" src="https://www.youtube.com/embed/dlGti895XEg?si=3DL_nSlG09GgBAII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="whatsapp-button text-center">
+                           <a href="https://wa.me/5511980951867" target="_blank">
+                           <img src="https://i.imgur.com/ltczhk6.jpg" alt="WhatsApp"></a>
+                           </div>
                             <img src="https://i.imgur.com/KdXstKM.jpg" alt="Image 21" class="img-fluid" />
                         </div>
                         <div class="container">
@@ -229,7 +249,7 @@ Fabricamos Marca Própria de Guitarras Sob Encomenda</span><br><br>
                            <a href="https://wa.me/5511980951867" target="_blank">
                            <img src="https://i.imgur.com/ltczhk6.jpg" alt="WhatsApp"></a>
                            </div>
-                            <img src="https://i.imgur.com/mSt5WCY.jpg" alt="Image 23" class="img-fluid" />
+                            <img src="https://i.imgur.com/DsBH7vM.jpg" alt="Image 23" class="img-fluid" />
                         </div>
                     </div>
                 </section>
